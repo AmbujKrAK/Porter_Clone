@@ -1,0 +1,29 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar>div{
+    display: flex;
+}
+
+.left>div{
+    margin: 10px;
+}
+
+.right>div{
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}
