@@ -4,7 +4,28 @@ body {
 
 #header {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    position: sticky;
+    align-items: center;
+    background-color: royalblue;
+    font-weight: 600;
+}
+
+.logoMain>img{
+    width: 100%;
+  
+}
+
+.logoCall>img{
+    width: 100%;
+}
+
+.logoMain{
+    width: 10%;
+}
+
+.logoCall{
+    width: 5%;
 }
 
 #navbar{
@@ -14,6 +35,7 @@ body {
 
 #navbar>div{
     display: flex;
+    padding: 0px 35px;
 }
 
 .left>div{
@@ -26,4 +48,18 @@ body {
 
 a{
     text-decoration: none;
+}
+
+hr{
+    margin: 0px;
+}
+
+#container{
+    width: 98%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+#features{
+    width: 60%;
 }
