@@ -1,89 +1,173 @@
+
 body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-#header {
+/* ////// Navbar ///////// */
+
+#navbar_container{
+
+    width: 101%;
+    height: 60px;
+    margin-top: -5px;
     display: flex;
-    /* justify-content: space-evenly; */
     position: sticky;
-    top: 0px;
-    left: 0px;
-    align-items: center;
-    /* background-color: royalblue; */
     background-image: linear-gradient(to right, #2961FE, #5D0DE1);
-}
 
-#header>div{
-    margin-left: 9%;
 }
+#nav_left{
+    width: 50%;
+    height: 60px;
 
-.join{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#nav_logo{
+    width: 150px;
+}
+#nav_logo > img{
+    width: 100%;
+    height: 30px;
+    margin-left: -30px;
+}
+#nav_heading{
+    color: white;
+    font-size: 16px;
+    margin-left: -100px;
+}
+#nav_right{
+    width: 50%;
+    height: 60px;
+
     display: flex;
 }
 
-.joinUS{
+#drive-us{
+    display: flex;
+
+    margin-left: 200px;
+ 
+}
+
+#drive-heading{
+    width: 120px;
+    height: 40px;
+    color: rgb(99,17,217);
+    align-items: center;
     margin-top: 10px;
-    background-color: #1a48cf;
-    color: yellow;
-    padding: 5px;
-   
+    margin-left: -2px;
+    padding-left: 20px;
+    background-color: rgb(254,223,0);
+
 }
 
-.sml{
-    color: royalblue;
-    font-size: 0.8em;
-    background-color: yellow;
-    margin: 0px;
+#drive-icon{
+    width: 32px;
+    margin-top: 5px;
+    margin-left: -14px;
+    /* position: absolute; */
 }
-
-.tag_logo{
-    width: 115px;
-    background-color: yellow;
-    padding: 2px;
+#drive_title{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: -10px;
+    margin-top: 3px;
+    margin-left: 0px;
+    color: blue;
 }
-
-.join>span{
-    background-color: yellow;
-    color: #2962ff;
-}
-
-.logoMain>img{
-    width: 100%;
-  
-}
-
-.logoCall>img{
-    width: 100%;
-}
-
-.logoMain{
-    width: 10%;
-}
-
-.logoCall{
-    width: 2%;
-    margin: -60px;
-}
-
-#navbar{
-    display: flex;
-    justify-content: space-between;
+#drive_desc{
+    font-size: 11px;
+    margin-left: 0px;
+    margin-top: 4px;
+    color: blue;
     font-weight: 600;
 }
-
-
-#navbar>div{
+#contact_info{
     display: flex;
-    padding: 0px 35px;
+    height: 40px;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 50px;
+
+}
+#call-icon{
+    width: 25px;
+    margin-right: 8px;
+}
+#join-us{
+    height: 38px;
+    margin-top: 10px;
+    border: 1px solid rgb(254,223,0);
+    color: rgb(254,223,0);
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 7px;
+    padding-left: 10px;
+    padding-top: -10px;
+}
+#join-us > p{
+    margin-top: 10px;
+}
+#contact_num{
+    margin-bottom: 0px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+#city-code{
+    margin-top: 0px;
+    color: white;
+    font-size: 12px;
+}
+#navbar_container2{
+    display: flex;
+    top: 55px;
+    width: 101.2%;
+    margin-left: -8px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.left>div{
-    margin: 10px;
+#nav2_left{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
 
-.right>div{
-    margin: 10px;
+#nav2_left > p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #212121;
 }
+
+#nav2_left > p:nth-child(1){
+    margin-left: 30px;
+}
+
+#nav2_right{
+    width: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+#nav2_right > p:nth-child(1){
+
+    margin-right: 50px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #212121;
+}
+
+#nav2_right > p:nth-child(2){
+    font-size: 15px;
+    color: #3a3a3a;
+}
+
+/* ///////// Navbar End/////////// */
 
 a{
     text-decoration: none;
@@ -97,6 +181,7 @@ hr{
     width: 98%;
     margin: auto;
     background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #features{
@@ -211,12 +296,6 @@ p,span,h4{
   #footer{
     background-color: black;
   }
-  
-element.style {
-    background-image: url(https://d35ppnqksufxmo.cloudfront.net/frontend_website/fb288e5….svg);
-    height: 2.6rem;
-    width: 14rem;
-}
 
 .logo-icon {
     background-position: -1.33rem 3.2rem;
@@ -244,4 +323,161 @@ element.style {
     background-image: linear-gradient(84deg, #2962FF, #5e0be0);
     height: 4px;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
+
+#offerContent{
+    padding: 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background: #2962FFD9;
+    margin: auto;
+
+}
+
+.indvidualOffer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2rem 0;
+    margin: 0 2rem;
+}
+
+.offerimg{
+    height: 13rem;
+    width: 13rem;
+}
+
+.offerInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-top: 2.4rem;
+    color: #fff;
+}
+
+.offerInfo>div{
+    text-align: center;
+}
+
+
+
+/* ///////////// Footer Start ////////////// */
+
+#footer_container{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+#footer1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    /* border: 1px solid red; */
+}
+#footer2_head{
+    width: 98%;
+    margin: auto;
+    margin-top: 30px;
+    /* border: 1px solid white; */
+}
+#footer2{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+#footer3{
+    width: 92%;
+    margin: auto;
+    display: flex;
+    margin-top: 25px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+#social_media_icons{
+    display: grid;
+    width: 30%;
+    grid-template-columns: repeat(5,40px);
+    grid-gap: 25px;
+}
+#social_media_icons > img{
+    width: 100%;
+}
+#vertical_line{
+    background-color: #BDBDBD;;
+    width: 2px;
+    height: 15px;
+    margin-top: 4px;
+    margin-left: 5px;
+    margin-right: -47px;
+}
+#copy_right{
+    display: flex;
+    color: #BDBDBD;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#copy_right>p{
+    margin-left: 55px;
+}
+
+#company_info{
+    width: 150px;
+    height: 150px;
+    font-size: 18px;
+    /* margin-left: 50px; */
+    /* border: 1px solid red; */
+}
+#porter_logo{
+    width: 100%;
+    margin-top: 5px;
+}
+.footer_title{
+    font-size: 16px;
+    font-weight: 600;
+}
+.footer_subtitle{
+    font-size: 14px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.playstore_logo{
+    width: 165px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+#logo_desc{
+    line-height: 1.5; 
+    margin-top: 6px;
+    font-size: 18px;
+    margin-left: 0px;
+}
+
+#here{
+    margin: 0% 0% 0% 4%;
+}
+
+
+/* ///////////// Footer End ////////////// */
+
+#offer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+#city{
+    margin-right: 5%;
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+}
+
