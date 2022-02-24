@@ -14,7 +14,37 @@ body {
 }
 
 #header>div{
-    margin-left: 5%;
+    margin-left: 9%;
+}
+
+.join{
+    display: flex;
+}
+
+.joinUS{
+    margin-top: 10px;
+    background-color: #1a48cf;
+    color: yellow;
+    padding: 5px;
+   
+}
+
+.sml{
+    color: royalblue;
+    font-size: 0.8em;
+    background-color: yellow;
+    margin: 0px;
+}
+
+.tag_logo{
+    width: 115px;
+    background-color: yellow;
+    padding: 2px;
+}
+
+.join>span{
+    background-color: yellow;
+    color: #2962ff;
 }
 
 .logoMain>img{
@@ -79,7 +109,7 @@ p,span,h4{
 }
 
 .feature_No{
-    font-size: 5.4rem;
+    font-size: 5.0rem;
     font-weight: 600;
     line-height: 0.77;
     color: #bdbdbd;
@@ -127,12 +157,16 @@ p,span,h4{
     font-weight: 600;
 }
 
+#contact{
+    margin-left: 70px;
+}
+
 /* The device with borders */
 .smartphone {
     position: relative;
     width: 392px;
     height: 640px;
-    margin: auto;
+    margin: 35% 0px 0px 111px;
     border: 16px black solid;
     border-top-width: 60px;
     border-bottom-width: 60px;
@@ -184,9 +218,30 @@ element.style {
     width: 14rem;
 }
 
-
-
 .logo-icon {
     background-position: -1.33rem 3.2rem;
     background-size: 139rem;
+}
+
+#conatiner2{
+    display: flex;
+}
+
+#offer{
+    align-items: flex-start;
+    margin-left: 4%;
+}
+
+#tag{
+    font-weight: 900;
+    color: #212121;
+    font-size: 1.7rem;
+}
+
+.bar{
+    width: 3rem;
+    border-radius: 8px;
+    background-image: linear-gradient(84deg, #2962FF, #5e0be0);
+    height: 4px;
+    margin-top: 2rem;
 }
