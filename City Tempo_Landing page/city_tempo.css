@@ -7,7 +7,7 @@ body {
 
 #navbar_container{
 
-    width: 101%;
+    width: 100%;
     height: 60px;
     margin-top: -5px;
     display: flex;
@@ -123,9 +123,7 @@ body {
 }
 #navbar_container2{
     display: flex;
-    top: 55px;
-    width: 101.2%;
-    margin-left: -8px;
+    width: 100%;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
@@ -246,52 +244,46 @@ p,span,h4{
     margin-left: 70px;
 }
 
-/* The device with borders */
-.smartphone {
-    position: relative;
-    width: 392px;
-    height: 640px;
-    margin: 35% 0px 0px 111px;
-    border: 16px black solid;
-    border-top-width: 60px;
-    border-bottom-width: 60px;
-    border-radius: 36px;
-  }
-  
-  /* The horizontal line on the top of the device */
-  .smartphone:before {
-    content: '';
-    display: block;
-    width: 60px;
-    height: 5px;
-    position: absolute;
-    top: -30px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #333;
-    border-radius: 10px;
-  }
-  
-  /* The circle on the bottom of the device */
-  .smartphone:after {
-    content: '';
-    display: block;
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    left: 50%;
-    bottom: -65px;
-    transform: translate(-50%, -50%);
-    background: #333;
-    border-radius: 50%;
-  }
-  
-  /* The screen (or content) of the device */
-  .smartphone .content {
-    width: 360px;
-    height: 640px;
-    background: white;
-  }
+#conatiner2{
+    display: flex;
+}
+
+.space1{
+    display: flex;
+    
+}
+
+.space1>div{
+    justify-content: space-around;
+    margin-left: 20%;
+}
+
+#resDetail{
+    width: 50%;
+}
+
+/*///////////////// Phone Start ///////////////*/
+#phone_display{
+    height: 50rem;
+    width: 40rem;
+}
+#phone_container{
+    background-image: url("https://d35ppnqksufxmo.cloudfront.net/frontend_website/13335fea484d886ba6668bd313f470c4.png");
+    height: 50rem;
+    width: 40rem;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.phone_inside{
+    width: 310px;
+    height: 34.5rem;
+    margin-top: 65px;
+    margin-left: 120px;
+    border: 1px solid black;
+}
+
+/*///////////////// Phone End ///////////////*/
+
 
   #footer{
     background-color: black;
@@ -302,9 +294,6 @@ p,span,h4{
     background-size: 139rem;
 }
 
-#conatiner2{
-    display: flex;
-}
 
 #offer{
     align-items: flex-start;
@@ -401,15 +390,18 @@ p,span,h4{
     justify-content: space-between;
     /* border: 1px solid red; */
 }
+
 #social_media_icons{
     display: grid;
     width: 30%;
     grid-template-columns: repeat(5,40px);
     grid-gap: 25px;
 }
+
 #social_media_icons > img{
     width: 100%;
 }
+
 #vertical_line{
     background-color: #BDBDBD;;
     width: 2px;
@@ -418,6 +410,7 @@ p,span,h4{
     margin-left: 5px;
     margin-right: -47px;
 }
+
 #copy_right{
     display: flex;
     color: #BDBDBD;
@@ -468,10 +461,16 @@ p,span,h4{
 
 /* ///////////// Footer End ////////////// */
 
-#offer{
+.offer1{
+    margin-left: 2%;
+}
+
+#offer2{
     display: flex;
     justify-content: space-between;
     margin-top: 3%;
+    margin-left: 2%;
+
 }
 
 #city{
@@ -479,5 +478,85 @@ p,span,h4{
     width: 150px;
     height: 40px;
     padding: 5px;
+
 }
 
+.rent{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #212121;
+   
+}
+
+#res>div{
+    display: flex;
+}
+
+#res>div>img{
+    margin-left: 1%;
+}
+
+
+#resResult{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: ghostwhite;
+    margin-top: 5%;
+}
+
+.space{
+    display: flex;
+    margin-left: 100px;
+}
+
+#qote{
+    padding: 1.4rem 1.5rem;
+    background-color: #fff;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    color: #3a3a3a;
+    display: flex;
+    width: 310px;   
+    margin: 30px 0px 0px 150px;
+}
+
+#amt {
+    padding-left: 5px;
+    font-weight: 600;
+    color: #2962ff;
+}
+
+#para{
+   
+    margin-top: 5%;
+    width: 45%;
+    margin-left: 20%;
+    
+}
+
+#para>p{
+    color: black;
+    font-size: small;
+    font-weight: 600;
+    color: grey;
+}
+
+#knowMore{
+    margin-top: 5%;
+    width: 15%;
+    margin-left: 20%;
+    padding: 8px;
+    background-image: linear-gradient(84deg, #2962FF, #5e0be0);
+    color: white;
+    font-weight: 900;
+    border-radius: 4px;
+}
+
+.present{
+    color: #212121;
+    font-size: 14px;
+    width: 96%;
+    font-weight: 600;
+    margin: auto;
+}
